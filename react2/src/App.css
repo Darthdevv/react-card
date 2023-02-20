@@ -1,0 +1,221 @@
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Epilogue:wght@500;700&family=Inter:wght@400;600;700&family=Kalam:wght@700&family=Montserrat&family=Nunito:wght@400;700&family=Roboto&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+
+.App{
+  background-color: #23252C;
+  width:550px;
+  height: 868px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main{
+  background-color: #1A1B21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 317px;
+  height: 700px;
+  border-radius: 9px 9px 0 0;
+}
+
+
+
+
+.footer{
+  background-color: #161619;
+  width: 317px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0px 0px 10px 10px;
+}
+
+
+
+.img{
+  width: 317px;
+  height: 317px;
+}
+
+.twitter,.facebook,.github,.instagram{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.twitter{
+  padding-left:76px;
+  padding-right:22px;
+}
+
+
+
+.github{
+  padding-right:66px;
+}
+
+.facebook{
+  padding-right: 22px;
+}
+.instagram{
+  padding-right: 22px;
+}
+
+
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+
+.laura{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 6px;
+}
+
+.job{
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+  padding-bottom: 8px;
+}
+
+
+.site{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #F5F5F5;
+  padding-bottom: 15px;
+}
+
+.email,.linkedin{
+  width: 115px;
+height: 34px;
+left: 283px;
+top: 468px;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+
+
+.linkedin{
+  background: #5093E2;
+  border: transparent;
+  color: #FFFFFF;
+  cursor: pointer;
+  width: 115px;
+  height: 34px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.linkedin:hover{
+  background: #408ce4;
+}
+
+.linkedin:active{
+  background-color: #3186e7;
+}
+
+.email{
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  color: #374151;
+  margin-right: 17px;
+  cursor: pointer;
+  width: 115px;
+  height: 34px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.email:hover{
+  background: #e6e6e6;
+}
+
+.email:active{
+  background-color: #c4c4c4;
+}
+
+#email{
+margin-right: 5px;
+}
+
+#linkedin{
+  margin-right: 5px;
+}
+
+
+.about{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+  padding-left: 37px;
+}
+
+.about-info{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+  padding-top: 5px;
+  padding-left: 37px;
+  padding-right: 35px;
+}
+
+
+.intrests{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+  padding-top: 10px;
+  padding-left: 37px;
+}
+
+.intrests-info{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  padding-left: 37px;
+  padding-right: 35px;
+}
+
